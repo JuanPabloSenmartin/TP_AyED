@@ -16,7 +16,7 @@ public class NumRom {
                     if (romanNumsInfo().get(input.charAt(i)) != null) {         // si es distinta a null,
                         int num = romanNumsInfo().get(input.charAt(i));         // busco su valor numerico y
                         if (num < romanNumsInfo().get(input.charAt(i + 1))) {   // me fijo si es menor al numero siguiente
-                            result -= num;                                      //
+                            result -= num;                                      //..
                         } else {                                                //
                             result += num;                                      //
                         }
